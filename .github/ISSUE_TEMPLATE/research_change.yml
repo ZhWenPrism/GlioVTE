@@ -1,0 +1,41 @@
+name: Research change
+description: Propose a change to the cohort, outcome, features, model, or evaluation protocol.
+title: "[Research]: "
+labels:
+  - research
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: State the problem and why the change is needed.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Cohort and outcome
+        - Feature engineering
+        - Modeling
+        - Evaluation and calibration
+        - Interpretation
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and source
+      description: Cite the approved protocol or artifact without including protected information.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define the checks required before this issue can be closed.
+    validations:
+      required: true
+

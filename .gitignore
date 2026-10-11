@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Clinical and model artifacts
+data/raw/
+data/interim/
+data/processed/
+data/private/
+checkpoints/
+artifacts/private/
+outputs/patient_level/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
