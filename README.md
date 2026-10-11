@@ -76,23 +76,8 @@ GlioVTE/
 └── README.md
 ```
 
-## Collaboration
-
-The repository supports both direct collaboration and Pull Request-based development:
-
-- invited collaborators may create branches and push commits using their own GitHub identities;
-- external contributors may fork the repository and submit Pull Requests;
-- jointly authored commits may use Git's `Co-authored-by` trailer so each contributor receives attribution;
-- research changes should be reviewed through a Pull Request when they affect cohort rules, outcome definitions, feature availability, evaluation, or public claims;
-- protected clinical data, identifiers, credentials, local paths, model artifacts, and private split manifests must never be committed.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete collaboration workflow.
 
 ## Project status
 
 GlioVTE is currently under active research development. Public materials are limited to the project scope, governance rules, collaboration workflow, and empty implementation scaffold. Model performance will be added only after the cohort, outcome, prediction time, evaluation protocol, and result provenance have been formally verified.
-
-## Responsible-use boundary
-
-This repository is intended for research and methods development. It is not a clinical device and must not be used for diagnosis, prophylaxis selection, anticoagulation decisions, triage, or autonomous patient management. Any future clinical investigation will require institutional governance, privacy review, independent validation, and human oversight.
 
