@@ -12,6 +12,8 @@
 
 </div>
 
+<a id="collaboration"></a>
+
 GlioVTE is a collaborative research project with **Beijing Tiantan Hospital** focused on developing a postoperative venous thromboembolism prediction model for patients undergoing surgery for glioma.
 
 The project is intended to organize perioperative clinical information into a reproducible prediction workflow, investigate patient-level VTE risk after glioma surgery, and support future research on interpretable clinical risk stratification. The repository currently provides the collaboration structure and research scaffold; it does not yet publish patient data, trained models, clinical performance claims, or deployment-ready code.
@@ -51,6 +53,13 @@ Discrimination · calibration · subgroup analysis
         ▼
 Research-only risk report and interpretation
 ```
+
+## Project documents
+
+| Document | Contents |
+|:---|:---|
+| [Research scope](docs/RESEARCH_SCOPE.md) | Cohort, prediction time, outcomes, and evaluation definitions |
+| [Data governance](docs/DATA_GOVERNANCE.md) | Data categories, artifact provenance, and release process |
 
 ## Repository layout
 
